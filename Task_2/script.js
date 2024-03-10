@@ -38,3 +38,9 @@ function addCheckbox() {
     newCheckbox.appendChild(deleteButton);
     todoList.appendChild(newCheckbox);
 }
+
+// Function to clear all tasks
+function clearAllTasks() {
+    const todoList = document.getElementById('todoList');
+    todoList.innerHTML = ''; // Remove all child elements
+}
